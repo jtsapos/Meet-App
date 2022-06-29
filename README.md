@@ -9,15 +9,15 @@
   </ul>  
     Scenario 2: User can expand an event to see its details
    <ul>
-    <li>Given the user had begun a search for a city and the app main page was open</li>
-    <li>When the user clicks on an event</li>
+    <li>Given the app main or home page was open</li>
+    <li>When the user clicks on an event to see the details</li>
     <li>Then the event expands and user should see the event details</li>
   </ul>
     Scenario 3: User can collapse an event to hide its details
    <ul>
-    <li>Given the main page was open</li>
-    <li>When the user clicks on and expands the event</li>
-    <li>Then the event element will collapse and details hidden</li>
+    <li>Given the app main or home page was open</li>
+    <li>When the user clicks on an open event with details showing</li>
+    <li>Then the event element will collapse and details will be hidden</li>
   </ul>
   <h4>FEATURE 3: SPECIFY NUMBER OF EVENTS -</h4>
   <h6>AS A USER I SHOULD BE ABLE TO SELECT HOW MANY EVENTS I WANT TO SEE SO THAT I CAN SEE 1 OR MORE EVENTS IF I CHOOSE</h6>
